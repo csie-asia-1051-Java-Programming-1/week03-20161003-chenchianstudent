@@ -4,11 +4,30 @@ public class hw01_105021007 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//��J�@�ӥ���ƭ�(���t 0)�A�Ǧ^�ӼƭȬO�X���(# ofdigits)�C
+		//輸入一個正整數值(不含 0)，傳回該數值是幾位數(# ofdigits)。
+		;
 Scanner scn=new Scanner(System.in);
-long v1=scn.nextLong();
-long sum = 1;
-while(v1>0){sum=sum+v1%10;v1=v1/10;}
+System.out.print("請輸入一整數(不含0)");
+long a = scn.nextLong();     
+String ss = Long.toString(a);
+char[] ch = ss.toCharArray();
+int j=ch.length;
+System.out.println(a + "是一個"+ j +"位数。");
+
+
 	}
 
-}
+
+	}
+
+	
+	
+
+	
+	
+
+
+
+	
+
+
