@@ -9,11 +9,7 @@ public class hw04_105021007 {
 		Scanner scn=new Scanner(System.in);
 		System.out.print("請輸入一正整數");
 	int a=scn.nextInt();
-	int i = a; 
-	long sum = 1; 
-	while(true) { i++; if (i >a) { break;} 
-	else { sum = sum * i; } 
-	}
+	
 	
 	
 	
