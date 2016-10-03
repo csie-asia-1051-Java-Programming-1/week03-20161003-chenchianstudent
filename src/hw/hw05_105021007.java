@@ -9,11 +9,12 @@ public class hw05_105021007 {
 		Scanner scn=new Scanner(System.in);
 System.out.print("請數入一正整數");
 int n=scn.nextInt();
-double n1=n*(n+1);
-double i=0;
-double ans = n1;
-for(i=1;i<=n;i=i+n1){ans=ans+i;}
-System.out.print(ans);
+int n1=n*(n+1);
+int i=n1;
+int sum=0;
+while(i<=n){sum+=i;i+=n1;}
+System.out.print(sum);
+
 
 
 		}
