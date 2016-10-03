@@ -9,7 +9,10 @@ public class hw04_105021007 {
 		Scanner scn=new Scanner(System.in);
 		System.out.print("請輸入一正整數");
 	int a=scn.nextInt();
-	
+	int i=1;
+	int sum=1;
+	while(i<=a){sum*=i;i++;}
+	System.out.print(sum);
 	
 	
 	
